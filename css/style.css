@@ -407,7 +407,6 @@ img {
 }
 .footer-flex {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 .footer-logo {
@@ -425,7 +424,11 @@ img {
   color: var(--accent-color);
   width: 264px;
 }
+.footer-content {
+  margin-right: 120px;
+}
 .footer-soc {
+  margin-right: 80px;
 }
 .footer-soc-subtitle {
   margin-bottom: 16px;
@@ -442,7 +445,7 @@ img {
   gap: 16px;
 }
 .footer-soc-item {
-  widows: 208px;
+  width: 40px;
   height: 40px;
 }
 .footer-soc-link {
@@ -494,7 +497,7 @@ img {
 
   color: var(--white-color);
 
-  background-color: var(--dark-color);
+  background-color: transparent;
 
   border: 1px solid var(--br-footer-sub-clr);
   border-radius: 4px;
